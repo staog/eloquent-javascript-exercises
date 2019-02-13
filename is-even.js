@@ -1,4 +1,4 @@
-// Solution for positive numbers only
+// Recursive solution for positive numbers only
 // If number provided has negative value, you'll get this error: "InternalError: too much recursion[Learn More]"
 
 var isEven = function(number) {
@@ -16,7 +16,7 @@ var isEven = function(number) {
 
 isEven(50);
 
-// Solution for all numbers, positive or negative
+// Recursive solution for all numbers, positive or negative
 
 /* var isEven = function(number) {
   if (number == 0) {
@@ -30,4 +30,4 @@ isEven(50);
   }      
 };
 
-isEven(50); */
+isEven(-33); */
